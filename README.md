@@ -1,9 +1,10 @@
-# movie_colorify
+# movie_colorify.py
+
 This program takes a sequence of images spit out by ffmpeg representing frames for every second of any movie. 
 It then averages the color of each frame, makes a line for each image, and merges the lines together to make a sequential portrait
 of how a movie's color and tone changes throughout the movie. 
 
-Here are some examples, I would like to integrate everything into python and bypass ffmpeg once I can figure that out. 
+Here are some examples, I would like to integrate everything into python and bypass ffmpeg once I can figure that out. For now though it seems to be working quite well, the biggest time constraint is the ffmpeg coversion from video to all the still images.  
 
 # Amelie
 ![Alt Test](https://github.com/claytonblythe/movie_colorify/blob/master/Amelie_finished_image_resized_3840%2C1080.jpg)
