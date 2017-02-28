@@ -1,0 +1,3 @@
+ffmpeg -i O\ Brother\,\ Where\ Art\ Thou\?.m4v -r 1 -s 120x90 -f image2 time_%d.jpeg
+ffmpeg -i *.m* -r 1 -s 120x90 -f image2 time_%d.jpeg
+convert -delay 5  -loop 0 *.png investments.gif
