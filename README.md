@@ -1,4 +1,4 @@
-# movie_colorify.py
+# Sequential Color Tone Analysis of Movies
 
 This program takes a sequence of images spit out by ffmpeg representing frames for every second of any movie. 
 It then averages the color of each frame, makes a line for each image, and merges the lines together to make a sequential portrait
