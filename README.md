@@ -25,5 +25,6 @@ They look quite beautiful as well as being interesting, and they work as a wallp
 # Guardian's of the Galaxy
 ![Alt Test](https://github.com/claytonblythe/movie_colorify/blob/master/GOTG_finished_image_resized_1920%2C1080.jpg)
 
-
+# Gladiator
+![Alt Test](https://github.com/claytonblythe/movie_colorify/blob/master/Gladiator_completed_runs_finished_image_resized_1920%2C1080.jpg)
 
