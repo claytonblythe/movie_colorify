@@ -17,3 +17,11 @@ Here are some examples, I would like to integrate everything into python and byp
 # Star Wars: Empire Strikes Back
 ![Alt Test](https://github.com/claytonblythe/movie_colorify/blob/master/Star%20Wars%20Empire%20Strikes%20Back_finished_image_resized_1920%2C1080.jpg)
 
+# Star Wars: A New Hope
+![Alt Test](https://github.com/claytonblythe/movie_colorify/blob/master/Star%20Wars%20New%20Hope_finished_image_resized_1920%2C1080.jpg)
+
+# Guardian's of the Galaxy
+![Alt Test](https://github.com/claytonblythe/movie_colorify/blob/master/GOTG_finished_image_resized_1920%2C1080.jpg)
+
+
+
