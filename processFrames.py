@@ -1,3 +1,4 @@
+#!/home/claytonblythe/anaconda3/bin/python
 from PIL import Image
 import glob
 from tqdm import tqdm
@@ -53,14 +54,14 @@ for i in tqdm(range(1, len(filenames))):
   my_file.close()
 
 current_dir = os.path.basename(os.getcwd())
-new_im.save('../wallpapers/'+ current_dir + '_finished_image.png')
+new_im.save('../wallpapers/'+ current_dir + '_base_image.png')
 
 # Create an image based on command line width and height arguments
 resize_ratio2 = (width,height)
 new_im2 = new_im.resize(resize_ratio2, Image.ANTIALIAS)
-new_im2.save('../wallpapers/' + current_dir + 'finished_resized_{}x{}.png'.format(width, height))
+new_im2.save('../wallpapers/' + current_dir + '_sized_{}x{}.png'.format(width, height))
 
-my_dict = {'3048':'1080'}
+my_dict = {'3048':'1080', '3840':'2160', '1334':'750'}
 for k, v in my_dict.items():
-    tmp_new_img = new_im.rezize((int(k), int(v)), Image.ANTIALIAS)
-    tmp_new_img.save('../wallpapers/' + current_dir + 'finished_sized_{}x{}.png'.format(k, v))
+    tmp_new_img = new_im.resize((int(k), int(v)), Image.ANTIALIAS)
+    tmp_new_img.save('../wallpapers/' + current_dir + '_sized_{}x{}.png'.format(k, v))
