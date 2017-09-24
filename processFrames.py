@@ -4,6 +4,7 @@ import glob
 from tqdm import tqdm
 import os
 import argparse
+from PIL import ImageFilter
 
 def get_args():
     '''This function parses and return arguments passed in'''
@@ -65,3 +66,5 @@ my_dict = {'3048':'1080', '3840':'2160', '1334':'750'}
 for k, v in my_dict.items():
     tmp_new_img = new_im.resize((int(k), int(v)), Image.ANTIALIAS)
     tmp_new_img.save('../wallpapers/' + current_dir + '_sized_{}x{}.png'.format(k, v))
+    tmp_new_img_blurred = tmp_new_img.filter(ImageFilter.BLUR)
+    tmp_new_img_blurred.save('../wallpapers/' + current_dir + '_blurred_sized_{}x{}.png'.format(k, v))
